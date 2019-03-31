@@ -1,4 +1,15 @@
-
 body {
 	background-color: black;
+}
+
+.ayayavid {
+	    position: relative;
+    	left: 0;
+
+}
+
+
+.ayayachat {
+	    position: absolute;
+    	right: 0;
 }
