@@ -1,20 +1,29 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-   <title>ayaya</title>
-	<link href="style/ayaya.css" rel="stylesheet" />
-  </head>
-  
-  <body>
-    <div>
-      <iframe src="https://player.kick.com/baburubaburoo" height="720" width="1280" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+  <meta charset="UTF-8">
+  <title>ayaya</title>
+  <link href="style/ayaya.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <!-- Kick Stream -->
+    <div class="stream">
+      <iframe
+        src="https://player.kick.com/baburubaburoo"
+        allowfullscreen
+        scrolling="no"
+        frameborder="0">
+      </iframe>
     </div>
-    <div>
-<iframe
-  src="https://www.twitch.tv/embed/baburubaburu/chat?parent=ayaya-project.github.io&darkpopout"
-  height="500"
-  width="350"
-  frameborder="0">
-</iframe>
+
+    <!-- Twitch Chat in Dark Mode -->
+    <div class="chat">
+      <iframe
+        src="https://www.twitch.tv/embed/baburubaburu/chat?parent=ayaya-project.github.io&darkpopout"
+        frameborder="0">
+      </iframe>
     </div>
-    </body>
+  </div>
+</body>
 </html>
